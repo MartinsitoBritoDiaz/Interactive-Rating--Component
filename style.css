@@ -1,0 +1,102 @@
+:root{
+    /* ### Primary */
+
+    --Orange: hsl(25, 97%, 53%);
+
+    /* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+html{ box-sizing: border-box; }
+
+*, *::before, *::after{ box-sizing: inherit; }
+
+body{
+    font-family: 'Overpass', sans-serif;
+
+    font-size: 15px;
+    background-color: var(--Very-Dark-Blue);
+}
+
+h1{ margin: 0rem; }
+
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 97vh;
+}
+
+.card{
+    background: linear-gradient(to bottom, #212731, #161d27);
+    border-radius: 1rem;
+    color: var(--White);
+    padding: 2rem 2rem;
+    width: 90%;
+    /* background: radial-gradient( at top, var(--Dark-Blue) 5%, rgba(12,14,17, 0.1)) */
+}
+
+.card--logo {
+    /* background-color: var(--Very-Dark-Blue); */
+    align-items: center;
+    background-color: #27303a;
+    border-radius: 50%;
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    width: 2.5rem;
+}
+
+.card--description p{
+    color: var(--Light-Grey);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.section--rate{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.rate--button{
+    background-color: #27303a;
+    border-radius: 50%;
+    border: none;
+    color: var(--Light-Grey);
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.rate--button:focus, .rate--button {
+    outline: none;
+    box-shadow: none;
+}
+
+.footer--button{
+    background-color: var(--Orange);
+    border-radius: 5rem;
+    border: none;
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    padding: 15px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.thankYou-state{
+    display: none;
+}
