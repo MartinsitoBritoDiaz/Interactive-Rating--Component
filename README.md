@@ -1,6 +1,14 @@
-# Frontend Mentor - Interactive rating component
+# Frontend Mentor - Product preview card component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+
+## Welcome! 👋
+
+Thanks for checking out this front-end coding challenge. This challenge was created by Martinsito 
+
+## Live Site 💻
+
+<a href="https://martinsitobritodiaz.github.io/Interactive-Rating--Component/">Click Here</a>
 
 ## Welcome! 👋
 
