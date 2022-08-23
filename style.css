@@ -161,3 +161,7 @@ h1{ margin: 0rem; color: var(--White); }
     display: none;
 }
 
+.selected{
+    background-color: var(--Orange);
+    color: var(--White);
+}
